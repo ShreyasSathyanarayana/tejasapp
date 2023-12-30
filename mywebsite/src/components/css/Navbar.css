@@ -1,0 +1,16 @@
+.company-logo {
+    height: 8vh;
+    width: 300px;
+}
+
+.navbar-container{
+    background-color: rgb(204, 232, 243);
+    height: 10vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .company-logo {
+        width: 40%;
+    }
+  }
