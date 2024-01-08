@@ -1,10 +1,8 @@
 import "../components/css/Navbar.css"
 import logo from "../components/ManTeclogo.jpeg"
-
-import { Link } from "react-router-dom";
 function Navbar(){
     return(
-        <nav className="navbar navbar-expand-lg  navbar-container">
+        <nav className="navbar navbar-expand-lg  navbar-container border border-bottom-dark">
         <div className="container-fluid">
         
         <img src={logo} className="company-logo " alt="" />
@@ -12,18 +10,18 @@ function Navbar(){
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav bg-white">
               <li className="nav-item">
-                <Link to="/"><a className="nav-link active" aria-current="page" href="#">Home</a></Link>
+                <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li className="nav-item">
-                <Link to="/ourservices"><a className="nav-link" href="#">Our Services</a></Link>
+                <a className="nav-link" href="/ourservices">Our Services</a>
               </li>
               <li className="nav-item">
-                <Link to="/legal"><a className="nav-link" href="#">Legal</a></Link>
+                <a className="nav-link" href="/legal">Legal</a>
               </li>
               <li className="nav-item">
-                <Link to="/contactus"><a className="nav-link " aria-disabled="true">Contact Us</a></Link>
+                <a className="nav-link " aria-disabled="true" href="/contactus">Contact Us</a>
               </li>
             </ul>
           </div>

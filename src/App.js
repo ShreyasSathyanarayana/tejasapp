@@ -11,7 +11,7 @@ function App(){
       <Router>
         <div className="container-top">
           <p><i class="fa-regular fa-envelope"></i> tejasgowda088@gmail.com</p>
-          <p><i class="fa-solid fa-phone"></i> 9606859359</p>
+          <p><i class="fa-solid fa-phone"></i>+91 9606859359</p>
         </div>
       <Navbar/>
       <Routes>

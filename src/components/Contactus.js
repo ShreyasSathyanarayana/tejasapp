@@ -1,6 +1,6 @@
 function Contactus(){
     return(
-        <div>
+        <div className="container-fluid">
             <h1>Contactus page</h1>
         </div>
     )

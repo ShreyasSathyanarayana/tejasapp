@@ -1,10 +1,10 @@
 .company-logo {
     height: 8vh;
-    width: 300px;
+    width: 10vw;
 }
 
 .navbar-container{
-    background-color: rgb(204, 232, 243);
+    background-color: white;
     height: 10vh;
     width: 100%;
 }
