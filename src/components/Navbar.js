@@ -1,5 +1,5 @@
 import "../components/css/Navbar.css"
-import logo from "../components/logo.jpeg"
+import logo from "../components/ManTeclogo.jpeg"
 
 import { Link } from "react-router-dom";
 function Navbar(){
